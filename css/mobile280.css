@@ -1,0 +1,701 @@
+@media screen and (max-width:280px){
+		/* -------HEADER------- */
+
+header{
+	background: #282a2e;
+	color: white;
+	font-family:'Roboto', regular;
+	height: 26px;
+    padding-top: 4%;
+}
+header .logo{
+	margin-left: 9.0909%;
+	float: left;
+
+}
+figcaption{
+	font-size: 0.4em;
+	margin-left: 1%;
+    float: left;
+}
+.icon{
+	float: right;
+	margin-right: 9.0909%;
+}
+.menu{
+	float: right;
+	width: 66%;
+    margin-top: -7%;
+    margin-right: 21px;
+    margin-bottom: -7%;
+}
+
+li{
+	list-style-type: none;
+	display: inline;
+	margin-right: 1%;
+	color: white;
+	font-family:'Roboto', regular;
+	font-size: 0.3em;
+}
+
+/* -------HEADER END------- */
+
+
+/* -------FIRSTBLOCK------- */
+
+.firstblock{
+	height: 110px;
+	background: #453a34;
+}
+.leftarrow{
+	position: absolute;
+	top: 50%;
+	left: 3%;
+}
+.rightarrow{
+	float: right;
+	position: relative;
+	top: 32%;
+	right: -3%;
+}
+.txtfbt{
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 0.7em;
+}
+.txtfbd{
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	font-size: 0.5em;
+}
+.firstblock p{
+	line-height: 0;
+}
+.txtf{
+	position: relative;
+    top: 46%;
+    left: 7%;
+}
+.icons{
+	float: right;
+    position: relative;
+    margin-top: -2.2%;
+    right: 12%;
+    width: 35%;
+}
+
+/* -------FIRSTBLOCK END------- */
+
+/* -------SECONDBLOCK------- */
+
+.secondblock{
+	height: 392px;
+	background: #282a2e;
+	text-align: center;
+}
+
+.secondblock h3{
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 2.25em;
+    margin-top: 0.5%;
+}
+
+.fourcont{
+	margin-left: 8%;
+	margin-top: 5%;
+}
+
+.fourcont figcaption{
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 1.5em;
+	margin-left: 25%;
+    margin-top: 5%;
+}
+
+.fourcont p{
+	color: #b3b3b3;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 0.8125em;
+	margin-top: 14%;
+}
+
+.cont1,
+.cont2,
+.cont3,
+.cont4{
+	text-align: -webkit-center;
+	width: 245px;
+}
+
+.cont2 figcaption,
+.cont3 figcaption{
+	margin-left: 30%;
+}
+
+.iconsecb{
+	height: 101px;
+	width: 101px;
+	border-radius: 50px;
+	background: #313338;
+	text-align: center;
+}
+
+.iconsecb img{
+	position: relative;
+	top: 34%;
+}
+
+/* -------SECONDBLOCK END------- */
+
+/* -------THREEBLOCK------- */
+
+.threeblock{
+	height: 429px;
+	background: #4b3f34;
+}
+.threeblock p{
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 3.75em;
+	margin-left: 15%;
+    margin-top: 12%;
+}
+.btn1{
+	background: #b0cd3b;
+	height: 43px;
+	width: 131px;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 1.125em;
+	box-shadow: 0px 3px 3px -1px rgb(121,143,33);
+	margin-left: 15%;
+	margin-top: 2%;
+	margin-right: 1%;
+
+}
+
+.btn1:hover{
+	background: #798f21;
+}
+
+.btn2{
+	background: #1bbc9d;
+	height: 43px;
+	width: 131px;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 1.125em;
+	box-shadow: 0px 3px 3px -1px rgb(31,147,125);
+}
+
+.btn2:hover{
+	background: #1f937d;
+}
+
+/* -------THREEBLOCK END------- */
+
+/* -------FOURBLOCK------- */
+
+.photob{
+	height: 782px;
+	background: #282a2e;
+	text-align: center;
+}
+
+.photob h3{
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 2.25em;
+	margin-top: 4%;
+}
+
+.btnp1,
+.btnp2,
+.btnp3,
+.btnp4{
+	height: 32px;
+	width: 104px;
+	border: none;
+	background: #313338;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 1.1428em;
+}
+
+.btnp1:hover,
+.btnp2:hover,
+.btnp3:hover,
+.btnp4:hover{
+	background: #1bbc9d;
+	box-shadow: 0px 3px 3px -1px rgb(31,147,125);
+}
+.photo{
+	height: 462px;
+	width: 938px;
+	margin-top: 4%;
+	margin-left: 10%;
+}
+.photot,
+.photod{
+	height: 224px;
+	width: 100%;
+}
+.pht,
+.phd{
+	background: #313337;
+	height: 224px;
+	max-width: 224px;
+}
+.photot{
+	margin-bottom: 1%;
+}
+
+.ph1, .ph2, .ph3,
+.pd1, .pd2, .pd3{
+	margin-right: 1%;
+}
+
+/* -------FOURBLOCK END------- */
+
+/* -------FIVEBLOCK------- */
+
+.fiveblock{
+	height: 430px;
+	background: #4b3f34;
+}
+
+.fiveblock p{
+	line-height: 0.7;
+}
+
+.txtfibt{
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 3.75em;
+	    margin-top: 15%;
+    margin-left: 17%;
+}
+.txtfibd{
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	font-size: 2.5em;
+    margin-left: 17%;
+
+}
+
+/* -------FIVEBLOCK END------- */
+
+/* -------SIXBLOCK------- */
+
+.sixblock{
+	height: 900px;
+	background: #282a2e;
+	text-align: center;
+}
+
+.sixblock h3{
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 2.25em;
+	margin-top: 4%;
+}
+
+.fourcontsix{
+	margin-left: 8%;
+	margin-top: 5%;
+}
+
+.fourcontsix figcaption{
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	font-size: 1.5em;
+	margin-left: 25%;
+    margin-top: 5%;
+}
+
+.fourcontsix .prof{
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 1em;
+}
+
+.fourcontsix p{
+	color: #b3b3b3;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 0.8125em;
+	margin-top: 6%;
+}
+
+.conts1,
+.conts2,
+.conts3,
+.conts4{
+	text-align: -webkit-center;
+	width: 245px;
+}
+
+.conts2 figcaption,
+.conts3 figcaption{
+    margin-left: 12%;
+    width: 80%;
+}
+.skill{
+	text-transform: uppercase;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	font-size: 1.125em;
+	    position: relative;
+    top: 8.5%;
+}
+hr{
+	height: 2px;
+	width: 381px;
+	background: #424242;
+	border: none;
+}
+.l{
+	position: relative;
+	    left: -49%;
+    top: 12%;
+}
+.r{
+	position: relative;
+	    top: 4.9%;
+    left: 23%;
+}
+
+.stat{
+	display: inline;
+	height: 105px;
+	width: auto;
+	    position: relative;
+    top: 110px;
+}
+
+/* -------SIXBLOCK END------- */
+
+/* -------SEVENBLOCK------- */
+
+.sevenblock{
+	height: 430px;
+	background: #4b3f34;
+}
+
+.sevenblock p{
+	line-height: 0.7;
+}
+
+.txtsevibt{
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	font-size: 3.75em;
+	    margin-top: 15%;
+    margin-left: 17%;
+    text-transform: uppercase;
+}
+.txtsevibd{
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 2.5em;
+    margin-left: 17%;
+
+}
+
+/* -------SEVENBLOCK END------- */
+
+/* -------EIGENBLOCK------- */
+
+.eigblock{
+	height: 555px;
+	background: #282a2e;
+	text-align: center;
+}
+.eigblock h3{
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 2.25em;
+	margin-top: 4%;
+}
+.formcont{
+	width: 940px;
+}
+.contact{
+	text-align: left;
+}
+.contact p{
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 1.125em;
+	text-transform: uppercase;
+}
+.contact hr{
+	height: 2px;
+	width: 665px;
+	background: #424242;
+	border: none;
+}
+.more{
+	text-align: left;
+}
+.more p{
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 1.125em;
+	text-transform: uppercase;
+}
+.more hr{
+	height: 2px;
+	width: 225px;
+	background: #424242;
+	border: none;
+}
+.mail,.name{
+	color: #929292;
+	background: #222327;
+	border:none;
+	float: left;
+	height: 34px;
+	width: 325px;
+	padding-left: 1%;
+}
+.name{
+	margin-right: 3%;
+}
+.conttxt{
+	color: #929292;
+	background: #222327;
+	border:none;
+	float: left;
+	height: 141px;
+	width: 671px;
+	margin-top: 3%;
+	padding-left: 1%;
+}
+.contbtn{
+	float: left;
+	height: 32px;
+	width: 104px;
+	border: none;
+	background: #1bbc9d;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 1.1428em;
+	margin-top: 3%;
+	box-shadow: 0px 3px 3px -1px rgb(31,147,125);
+}
+.contbtn:hover{
+	background: #1f937d;
+	box-shadow: 0px 3px 3px -1px rgb(31,147,125);
+}
+.info p{
+	float: left;
+	color: #8c8c8d;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+	line-height: 1.5;
+}
+.eigbtn{
+	float: left;
+	height: 32px;
+	width: 104px;
+	border: none;
+	background: #1bbc9d;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 1.1428em;
+	margin-top: 17%;
+	box-shadow: 0px 3px 3px -1px rgb(31,147,125);
+}
+.eigbtn:hover{
+	background: #1f937d;
+	box-shadow: 0px 3px 3px -1px rgb(31,147,125);
+}
+
+/* -------EIGENBLOCK END------- */
+
+/* -------NINEBLOCK------- */
+
+.nineblock{
+	height: 430px;
+	background: #4b3f34;
+}
+.nineblock p{
+	line-height: 0.7;
+}
+
+.txtninibt{
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	font-size: 3.75em;
+	    margin-top: 15%;
+    margin-left: 17%;
+    text-transform: uppercase;
+}
+.txtninibd{
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 3.125em;
+    margin-left: 17%;
+
+}
+
+.socicon{
+	display: inline;
+	margin-left: 17%;
+    position: relative;
+    top: 33px;
+}
+.socicon img{
+	margin-right: 2%;
+}
+
+/* -------NINEBLOCK END------- */
+
+/* -------TENBLOCK------- */
+
+.tenblock{
+	height: 450px;
+	background: #282a2e;
+}
+.left{
+    margin-left: 7%;
+    margin-right: 5%;
+}
+.center{
+	margin-right: 5%;
+}
+.left,
+.center,
+.right{
+	width: 266px;
+	margin-top: 6%;
+}
+.left p,
+.center p,
+.right p{
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	font-size: 1.125em;
+	text-transform: uppercase;
+}
+.tenblock hr{
+	width: 266px;
+}
+.right hr{
+	background: white;
+}
+.leftt h5, .leftd h5{
+	font-family: 'Arial';
+	font-size: 1em;
+	color: #747474;
+	font-weight: 700;
+}
+.leftt p, .leftd p{
+	font-family: 'Arial';
+	font-size: 0.8125em;
+	color: #747474;
+	font-weight: 700;
+	text-transform: none;
+}
+
+.cent h5, .cenm h5, .cend h5{
+	font-family: 'Arial';
+	font-size: 1em;
+	color: #747474;
+	font-weight: 700;
+}
+.cent p, .cenm p, .cend p{
+	font-family: 'Arial';
+	font-size: 0.8125em;
+	color: #747474;
+	font-weight: 700;
+	text-transform: none;
+	margin-bottom: 7%;
+}
+.streem{
+	width: 305px;
+	text-align: left;
+	    margin-top: -6%;
+}
+.streempht, .streemphm, .streemphd{
+	margin-left: -10%;
+}
+.str1, .str2, .str3, .str4{
+
+	margin-top: 3%;
+}
+
+/* -------TENBLOCK END------- */
+
+/* -------FOOTER------- */
+
+footer{
+	height: 133px;
+	background: #222327;
+}
+footer .logo{
+	margin-left: 9.0909%;
+	float: left;
+	    position: relative;
+    top: 42%;
+
+}
+footer figcaption{
+	color: white;
+	font-size: 1.5em;
+	margin-left: 1%;
+    float: left;
+        position: relative;
+    top: 40%;
+}
+.date{
+	display: -webkit-inline-box;
+	color: #989898;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 1em;
+	float: right;
+	position: relative;
+	top:45%;
+	margin-right: 14%;
+}
+.date p{
+	margin-right: 12%;
+}
+
+/* -------FOOTER END------- */
+}
